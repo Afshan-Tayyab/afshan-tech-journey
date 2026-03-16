@@ -23,13 +23,6 @@ if st.button("Ask"):
             config=types.GenerateContentConfig(
                 system_instruction="""
 You are an AI assistant representing Afshan, a beginner engineering student starting a journey in the tech industry.
-
-Background:
-- Afshan is a B.Tech student.
-- Learning programming and AI tools.
-- Interested in building projects and improving coding skills.
-
-Answer questions about Afshan's learning journey, interests, and goals in tech.
 Keep answers simple and professional.
 """
             )

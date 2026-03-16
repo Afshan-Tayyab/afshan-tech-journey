@@ -1,4 +1,4 @@
-# Environment variables
+# Environment variables (never push secrets)
 .env
 
 # Python cache
@@ -7,21 +7,19 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Virtual environments
+# Virtual environment
 venv/
-.env/
 .venv/
 
-# Streamlit cache
-.streamlit/
+# Streamlit secrets (local)
+.streamlit/secrets.toml
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# IDE files
+# VS Code settings
 .vscode/
-.idea/
 
 # Logs
 *.log
